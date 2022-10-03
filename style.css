@@ -1,0 +1,92 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #222;
+    font-family: 'Mukta', sans-serif;
+    background: url('https://source.unsplash.com/1600x900/?landscape');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 120%;
+}
+.table {
+    background: #000000d0;
+    color:white;
+    padding:2px;
+    border-radius:20px;
+    width:100%;
+    max-width:420px;
+}
+.numbers{
+    display:wrap;
+    align-items:center;
+    justify-content:center;
+}
+input {
+    text-align: center;
+    margin: 1em;
+    border-radius: 50px;
+    border: none;
+    height: 50px;
+    width: 150px;
+    outline: none;
+    background: #7c7c7c2b;
+    color: white;
+    font-size: 20px;
+}
+.count {
+    text-align: center;
+    display: flex;
+    margin-top: -0.5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+input[type='number'] {
+    -moz-appearance: textfield;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+button {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    background: #696969d0;
+    color: #C0C0C0d0;
+    font-size: 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    height: 35px;
+    align-items: center;
+    transition: 0.2s ease-in-out;
+}
+    button:hover {
+        color: #C0C0C0;
+    }
+
+textarea::placeholder{
+    text-shadow:0px 0px 0px #000;
+}
+textarea {
+    display: flex;
+    color: #FFF5EE;
+    text-shadow: 1px 1px 1px #000;
+    border: none;
+    border-radius: 15px;
+    background: #D8BFD8d0;
+    overflow: hidden;
+    min-height: 50px;
+    min-width: 50px;
+    max-width: 300px;
+    max-height: 300px;
+    margin: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    text-align: center;
+}
